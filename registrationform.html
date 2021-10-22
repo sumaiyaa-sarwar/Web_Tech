@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+</head>
+<body>
+	<h1>Registration Form</h1>
+ 	 <form action="/">
+ 	   <fieldset>
+       <legend>Basic Information:</legend>
+ 		<label for="firstname">First Name: </label>
+     	<input type="text" name="firstname" id="firstname">
+     	<br><br>
+     	<label for="lastname">Last Name: </label>
+     	<input type="text" name="lastname" id="lastname">
+     	<br><br>
+		<label>Gender: </label>
+        <input type="radio" name="gender" id="male" value="male">Male
+        <input type="radio" name="gender" id="female" value="female">Female
+        <input type="radio" name="gender" id="others" value="others">Others
+        <br><br>
+        <label for="birthday">Birthday:</label>
+  		<input type="date" id="birthday" name="birthday">
+  		<br><br>
+  		<label>Religion: </label>
+        <select>
+        	<option value="Muslim">Muslim</option>
+        	<option value="Hindu">Hindu</option>
+        	<option value="Christian">Christian</option>
+        	<option value="Buddhist">Buddhist</option>
+        	<option value="Others">Others</option>
+        </select>
+        <br><br>
+	</fieldset>
+	<br>
+
+ <fieldset>
+       <legend>Contact Information:</legend>
+		<label for="present address">Present Address:</label>
+		<textarea id="present address" name="present address" rows="3" cols="50">
+  		</textarea>
+ 	   <br><br>
+ 	   <label for="permanent address">Permanent Address:</label>
+		<textarea id="permanent address" name="permanent address" rows="3" cols="50">
+  		</textarea>
+ 	   <br><br>
+ 	   <label for="phone">Phone Number:</label>
+	   <input type="tel" id="phone" name="phone">
+	   <br><br>
+	   <label for="email">Email:</label>
+  	   <input type="email" id="email" name="email">
+  	   <br><br>
+  	   <label for="website">Personal Website Link:</label>
+	   <input type="url" id="website" name="website">
+	   <br><br>
+	 </fieldset>
+
+	 <br>
+	<input type="submit" name="submit" value="Submit">
+	</form>
+
+</body>
+</html>
